@@ -1,37 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tic-Tac-Toe</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Baghpat real-estate</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <main>
-        <form>
-            <input type="text" placeholder="Enter Name For 'X' " value="">
-            <input type="text" placeholder="Enter Name For 'O' " value="">
-            <button type="button">Play</button>
-        </form>
-        <div class="container winner">
+  </head>
+  <body>
+    <nav class="flex">
+        <a href="#" class="logo">
+            Sumit
+        </a>
+        <ul class="nav-btns flex">
+            <li><a href="#">Buy</a></li>
+            <li><a href="#">Sell</a></li>
+            <li><a href="#">Rent</a></li>
+            <li><a href="#">Find Realtors</a></li>
+            <li><a href="#">My Home</a></li>
+            <li><a href="#">News & Insights</a></li>
+        </ul>
+        <ul class="nav-btns flex">
+            <li><a href="#">Manage Rentals</a></li>
+            <li><a href="#">Advertise</a></li>
+        </ul>
+        <ul class="nav-btns flex">
+            <li><a href="#">Log In</a></li>
+            <li class="sign-up-btn"><a href="#" >Sign Up</a></li>
+        </ul>
+    </nav>
 
-            <h1 class="winner b"></h1>
-            <button class="newbtn resetbtn winner">New Game</button>
-            <h1 class="title">Tic-Tac-Toe Game</h1>
-            <div class="game">
-                <button class="box"></button>
-                <button class="box"></button>
-                <button class="box"></button>
-                <button class="box"></button>
-                <button class="box"></button>
-                <button class="box"></button>
-                <button class="box"></button>
-                <button class="box"></button>
-                <button class="box"></button>
-            </div>
-            <button class="resetbtn">Reset</button>
+    <header>
+      <section class="background">
+        <h1 class="heading">
+          The #1 site real estate professionals trust*
+        </h1>
+        <ul class="flex links">
+          <li><a href="#">Buy</a></li>
+          <li><a href="#">Rent</a></li>
+          <li><a href="#">Sell</a></li>
+          <li><a href="#">Pre-approvel</a></li>
+          <li><a href="#">Just Sold</a></li>
+          <li><a href="#">Home Value</a></li>
+        </ul>
+        <div class="search">
+          <input type="text" placeholder="Address, School, City, Zip or Neighborhood" class="search-box">
+          <a href="#" class="search-icon fa-solid fa-magnifying-glass"></a>
         </div>
-    </main>
+      </section>
+    </header>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
