@@ -24,7 +24,10 @@
 nav{
     background-color: var(--text-color-white);
     height: 4rem;
-    position: sticky;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    box-shadow: 0px 0px 10px rgba(70, 68, 68, 0.514);
 }
 
 .logo{
@@ -74,6 +77,10 @@ nav{
     color: white !important;
 }
 
+header{
+    margin-top: 4rem;
+}
+
 .background{
     background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,.7)),url(img/bg.webp);
     background-size: cover;
@@ -108,6 +115,7 @@ nav{
 
 .links li a:hover{
     border-bottom: 3px solid var(--text-color-white);
+    color: rgba(136, 140, 143, 0.863);
 }
 
 .search{
@@ -149,3 +157,103 @@ nav{
     background-color: var(--text-color-light-dark);
 }
 
+.sec1{
+    height: 80vh;
+}
+
+.sec1heading{
+    color: black;
+    font-weight: 900;
+    font-size: 30px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.boxes{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+    align-items: center;
+    height: 85%;
+    width: 100%;
+}
+
+.box{
+    height: 93%;
+    width: 95%;
+    border-radius: 1rem;
+    transition: .3s;
+    position: relative;
+}
+
+.box:hover{
+    box-shadow: 15px 15px 24px rgba(128, 125, 125, 0.747);
+
+    .boxtextleft{
+        padding-bottom: 5px;
+        border-bottom: 1px solid white;
+    }
+
+}
+
+#box1{
+    background-image: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.1)),url(./img/s1.webp);
+    background-size: cover;
+}
+#box2{
+    background-image: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.1)),url(./img/s2.webp);
+    background-size: cover;
+}
+#box3{
+    background-image: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.1)),url(./img/s3.webp);
+    background-size: cover;
+}
+#box4{
+    background-image: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.1)),url(./img/s4.webp);
+    background-size: cover;
+}
+#box5{
+    background-image: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.1)),url(./img/s5.webp);
+    background-size: cover;
+}
+#box6{
+    background-image: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.1)),url(./img/s6.webp);
+    background-size: cover;
+}
+#box7{
+    background-image: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.1)),url(./img/s7.webp);
+    background-size: cover;
+}
+#box8{
+    background-image: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.1)),url(./img/s8.webp);
+    background-size: cover;
+}
+
+.boxtxt{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.boxtextleft{
+    color: white;
+    font-weight: 900;
+    font-size: 1.2rem;
+    position: absolute;
+    transition: .3s;
+    left: 9%;
+}
+
+.boxtextright{
+    background-color: white;
+    text-align: center;
+    padding: 3px 9px;
+    border-radius: 15px;
+    position: absolute;
+    right: 10%;
+    font-weight: 600;
+    cursor: default;
+}
