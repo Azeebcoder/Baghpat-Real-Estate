@@ -28,6 +28,7 @@ nav{
     width: 100vw;
     top: 0;
     box-shadow: 0px 0px 10px rgba(70, 68, 68, 0.514);
+    z-index: 11;
 }
 
 .logo{
@@ -256,4 +257,123 @@ header{
     right: 10%;
     font-weight: 600;
     cursor: default;
+}
+
+footer{
+    margin-top: 10rem !important;
+    background-color: #1b1b1b;
+}
+
+.between{
+    padding: 3rem 15rem;
+    justify-content: space-between;
+}
+
+.icon{
+    background-color: #262626;
+    border-radius:50% ;
+    margin-right: 2rem;
+}
+
+.icon a i{
+    padding: .7rem .9rem;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    border-radius: 50%;
+    transition: all .3s;
+}
+
+.left-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    min-height: 30vh;
+    row-gap: 2rem;
+}
+
+.footer-text{
+    color: white;
+    font-weight: 400;
+}
+
+.footer-text p{
+    color: white;
+    font-size: 15px;
+}
+
+.footer-text h2{
+    color: white;
+    font-size: 25px;
+}
+
+.footer-text a{
+    color: rgb(93, 93, 245);
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.right-footer{
+    margin-left: 11rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.6rem;
+}
+
+.footer-links{
+    width: 80% ;
+    justify-content: space-between;
+}
+
+.footer-links li a i{
+    color: white;
+    font-size: 20px;
+    background-color: #262626;
+    padding: 1.2rem;
+    border-radius: .5rem;
+    transition: all .3s;
+}
+
+.fa-facebook-f:hover{
+    background-color: rgb(26, 23, 235);
+    box-shadow: 0px 0px 20px rgba(27, 23, 235, 0.644);
+}
+
+.fa-x-twitter:hover{
+    background-color: black;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.644);
+}
+
+.fa-instagram:hover{
+    background: linear-gradient(45deg, #F77737, #FD1D1D, #833AB4);
+    box-shadow: 0px 0px 20px rgba(230, 39, 71, 0.664);
+}
+
+.fa-linkedin-in:hover{
+    background-color: rgb(28, 97, 247);
+    box-shadow: 0px 0px 20px rgba(28,97,247,.644);
+}
+
+.fa-location-dot:hover{
+    background-color: rgb(230, 44, 31);
+    box-shadow: 0px 0px 20px rgba(230,44,31,.644);
+}
+
+.fa-phone:hover{
+    background-color: rgb(19, 179, 33);
+    box-shadow: 0px 0px 20px rgba(19,179,33,.644);
+}
+
+.fa-envelope:hover{
+    
+    background-color: rgb(156, 18, 64);
+    box-shadow: 0px 0px 20px rgba(156,18,64,.644);
+}
+
+.copyright{
+    color: white;
+    background-color: #1b1b1b;
+    text-align: center;
+    padding: 2rem 0 ;
+    font-size: 18px;
+    letter-spacing: 3px;
 }
