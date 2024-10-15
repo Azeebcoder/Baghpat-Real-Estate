@@ -262,13 +262,13 @@ header{
 footer{
     margin-top: 10rem !important;
     background-color: #1b1b1b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    row-gap: 5rem;
 }
-
-.between{
-    padding: 3rem 15rem;
-    justify-content: space-between;
-}
-
 .icon{
     background-color: #262626;
     border-radius:50% ;
@@ -299,6 +299,7 @@ footer{
 .footer-text p{
     color: white;
     font-size: 15px;
+    max-width: 25vw;
 }
 
 .footer-text h2{
@@ -313,7 +314,6 @@ footer{
 }
 
 .right-footer{
-    margin-left: 11rem;
     display: flex;
     flex-direction: column;
     row-gap: 1.6rem;
@@ -378,9 +378,11 @@ footer{
 
 .copyright{
     color: white;
-    background-color: #1b1b1b;
-    text-align: center;
-    padding: 2rem 0 ;
     font-size: 18px;
     letter-spacing: 3px;
+}
+
+.footer-1{
+    min-width: 90%;
+    justify-content: space-evenly;
 }
