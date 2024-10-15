@@ -61,10 +61,9 @@ nav{
 .sign-up-btn{
     background-color: var(--text-color);
     text-align: center;
-    padding: 1.05rem 1.3rem;
+    padding: .8rem 1.3rem;
     border-radius: 2rem;
     color: var(--text-color-white);
-    padding: none;
 }
 
 .sign-up-btn:hover{
@@ -158,15 +157,21 @@ header{
     background-color: var(--text-color-light-dark);
 }
 
+section{
+    width: 100%;
+    /* background-color: pink; */
+    margin: 8rem 0;
+    margin-bottom: 0;
+}
+
 .sec1{
     height: 80vh;
 }
 
-.sec1heading{
+.secheading{
     color: black;
     font-weight: 900;
     font-size: 30px;
-    margin-top: 80px;
     margin-bottom: 40px;
 }
 
@@ -383,6 +388,131 @@ footer{
 }
 
 .footer-1{
-    min-width: 90%;
-    justify-content: space-evenly;
+    min-width: 70%;
+    justify-content: space-between;
+}
+
+
+.sec2btns{
+    min-width: 10vw;
+    max-width: 25vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sec2btns li a{
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    border: 1px solid black;
+}
+
+.sec2btns li a:hover{
+    background-color: #beb9b9b6;
+}
+
+.sec2boxes{
+    height: 17rem;
+    margin-top:3rem;
+    align-items: start;
+    justify-content: space-between;
+    justify-items: stretch;
+
+}
+
+.sec2box{
+    width: 32%;
+    height: 100%;
+    border-radius: 1rem;
+    border: 1px solid rgba(122, 122, 122, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    row-gap: 3rem;
+    padding: 2rem 0;
+    padding-left: 1.3rem;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.sec2box:hover{
+    border: 1px solid black;
+}
+
+.sec2boxheading{
+    display: flex;
+    justify-content: space-between;
+    width: 92%;
+}
+
+.sec2boxheading i{
+    font-size: 2.5rem;
+    color: rgb(197, 2, 2);
+}
+
+.sec2boxheading h3{
+    color: black;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.sec2boxtext{
+    max-width: 95%;
+}
+
+.sec2boxtext p{
+    font-weight: 500;
+    font-size: 16px;
+    word-spacing: 3px;
+}
+
+.underline{
+    border-bottom: 1px solid black;
+}
+
+.left-image{
+    display: flex;
+}
+
+.image{
+    width:50%;
+}
+
+.image img{
+    width: 100%;
+}
+
+.image-content{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    row-gap: 3rem;
+}
+
+.image-heading{
+    max-width: 90%;
+    font-size: 1.7rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+}
+.image-heading1{
+    max-width: 90%;
+    font-size: 1.7rem;
+}
+
+.image-txt{
+    font-size: 1.2rem;
+    font-weight: 500;
+    max-width: 90%;
+}
+
+.image-btn{
+    max-width: 40%;
+    font-size: 1rem;
 }
