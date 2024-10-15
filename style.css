@@ -336,36 +336,43 @@ footer{
 .fa-facebook-f:hover{
     background-color: rgb(26, 23, 235);
     box-shadow: 0px 0px 20px rgba(27, 23, 235, 0.644);
+    transform: scale(1.2);
 }
 
 .fa-x-twitter:hover{
     background-color: black;
     box-shadow: 0px 0px 20px rgba(0,0,0,0.644);
+    transform: scale(1.2);
 }
 
 .fa-instagram:hover{
     background: linear-gradient(45deg, #F77737, #FD1D1D, #833AB4);
     box-shadow: 0px 0px 20px rgba(230, 39, 71, 0.664);
+    transform: scale(1.2);
 }
 
 .fa-linkedin-in:hover{
     background-color: rgb(28, 97, 247);
     box-shadow: 0px 0px 20px rgba(28,97,247,.644);
+    transform: scale(1.2);
 }
 
 .fa-location-dot:hover{
     background-color: rgb(230, 44, 31);
     box-shadow: 0px 0px 20px rgba(230,44,31,.644);
+    transform: scale(1.2);
 }
 
 .fa-phone:hover{
     background-color: rgb(19, 179, 33);
     box-shadow: 0px 0px 20px rgba(19,179,33,.644);
+    transform: scale(1.2);
 }
 
 .fa-envelope:hover{
     
     background-color: rgb(156, 18, 64);
+    transform: scale(1.2);
     box-shadow: 0px 0px 20px rgba(156,18,64,.644);
 }
 
