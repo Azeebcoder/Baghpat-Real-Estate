@@ -159,7 +159,7 @@ header{
 
 section{
     width: 100%;
-    /* background-color: pink; */
+    /* background-color: pink;   */
     margin: 8rem 0;
     margin-bottom: 0;
 }
@@ -516,3 +516,22 @@ footer{
     max-width: 40%;
     font-size: 1rem;
 }
+
+.right-image-text{
+    width: 50%;
+    
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box-text{
+    height: 30rem;
+    width: 90%;
+    align-items: start;
+    row-gap: 2rem;
+}
+
