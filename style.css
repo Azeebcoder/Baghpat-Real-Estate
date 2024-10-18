@@ -1,3 +1,6 @@
+@import url(responsive.css);
+
+
 *{
     margin: 0;
     padding: 0;
@@ -17,10 +20,8 @@
 
 }
 
-.container{
-    width: var(--width-large);
-    margin: 0 auto;
-}
+/* Navigation bar  */
+
 nav{
     background-color: var(--text-color-white);
     height: 4rem;
@@ -38,15 +39,25 @@ nav{
     color: var(--text-color);
 }
 
-.flex{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+
+
+.navigation-bar-links{
+    width: 80%;
 }
 
-.nav-btns{
-    gap: 1.5rem;
+.nav-links{
+    width: 55%;
 }
+
+.nav-rentals{
+    width: 25%;
+}
+
+.nav-login-signup{
+    width: 20%;
+}
+
+
 .nav-btns li a{
     font-size: 1.1rem;
     font-weight: 700;
@@ -69,12 +80,32 @@ nav{
 .sign-up-btn:hover{
     background-color: var(--text-color-light-dark);
 }
+
+.sign-up-btn a{
+    color: var(--text-color-white) !important;
+}
+
 .sign-up-btn a:hover{
     border: none !important;
 }
 
-.sign-up-btn a{
-    color: white !important;
+.menu-bar{
+    font-size: 2rem;
+    display: none;
+}
+
+
+/* Comman classes */
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.container{
+    width: var(--width-large);
+    margin: 0 auto;
 }
 
 header{
@@ -85,7 +116,7 @@ header{
     background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,.7)),url(img/bg.webp);
     background-size: cover;
     width: 100%;
-    height: 70vh;
+    height: 91vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -162,6 +193,7 @@ section{
     /* background-color: pink;   */
     margin: 8rem 0;
     margin-bottom: 0;
+    /* border: 2px solid black; */
 }
 
 .sec1{
@@ -395,7 +427,7 @@ footer{
 
 .sec2btns{
     min-width: 10vw;
-    max-width: 25vw;
+    max-width: 27vw;
     height: 10vh;
     display: flex;
     justify-content: space-between;
@@ -484,6 +516,7 @@ footer{
 
 .image img{
     width: 100%;
+    height: 100%;
 }
 
 .image-content{
@@ -509,7 +542,6 @@ footer{
 .image-txt{
     font-size: 1.2rem;
     font-weight: 500;
-    max-width: 90%;
 }
 
 .image-btn{
@@ -529,9 +561,7 @@ footer{
 }
 
 .box-text{
-    height: 30rem;
     width: 90%;
     align-items: start;
     row-gap: 2rem;
 }
-
