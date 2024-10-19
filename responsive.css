@@ -5,40 +5,41 @@
     }
     
     .nav-btns li a:hover{
-        border-bottom: none !important;
+        border-bottom: none;
 
     }
     .navigation-bar-links{
         flex-direction: column;
-        width: 100% !important;
+        width: 100%;
         height: 100vh;
         position: absolute;
         background-color: rgba(255, 255, 255, 0.4);
         backdrop-filter: blur(20px);
         right: 0;
         top: 0;
-        row-gap: 1.2rem;
+        row-gap: 4vh;
         padding-top: 2.5rem;
         transform: translateX(100%);
+        opacity: 0;
     }
     
     .nav{
         padding: 0 1.2rem;
-        justify-content: space-between !important;
+        justify-content: space-between;
 
     }
 
     .nav-links{
-        width: 100% !important;
+        width: 100%;
 
     }
     
     .nav-rentals{
-        width: 100% !important;
+        width: 100%;
     }
     
     .nav-login-signup{
-        width: 100% !important;
+        width: 100%;
         margin-top: 15vh;
     }
 
@@ -47,7 +48,114 @@
     }
 
     .menu-bar{
-        display: block !important;
+        display: block;
         z-index: 100;
+    }
+
+    .links{
+        display: none;
+    }
+
+    .heading{
+        max-width: 80%;
+        font-size: 1.6rem;
+    }
+    .search{
+        width: 70%;
+    }
+    .search-box{
+        font-size: .9rem;
+        font-weight: 300;
+    }
+    .search-icon{
+        font-size: .9rem;
+        height: 2.7rem;
+        width: 2.7rem;
+    }
+    .sec1{
+        height: 300vh;
+    }
+    .secheading{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .boxes{
+        grid-template-columns: 1fr;
+        height: 100%;
+        width: 100%;
+    }
+    .sec2btns{
+        min-width: 70%;
+    }
+    .sec2btns li a{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .sec2boxes{
+        flex-direction: column;
+        width: 90vw;
+        row-gap: 2rem ;
+    }
+    .sec2box{
+        width: 90vw;
+    }
+
+    .sec2{
+        height: 150vh;
+    }
+    .left-image{
+        flex-direction: column;
+        row-gap: 3rem;
+        margin-bottom: 5rem;
+    }
+    .image{
+        width:100%;
+    }
+    .image-content{
+        width: 100%;
+    }
+    .image-btn{
+        max-width: 70%;
+    }
+    .image-heading1{
+        max-width: 90%;
+        font-size: 1rem;
+    }
+    .image-txt{
+        font-size: 1rem;
+        font-weight: 300;
+    }
+
+    .right-image{
+        flex-direction: column-reverse;
+        row-gap: 3rem;
+    }
+    .right-image-text{
+        width: 100%;
+    }
+
+    .search-small{
+        width: 100%;
+        font-size: 1rem;
+    }
+    .footer-1{
+        padding-top: 3rem;
+        flex-direction: column;
+        row-gap: 9rem;
+    }
+    .right-footer{
+        width: 100%;
+        padding-left:10%;
+        row-gap: 4rem ;
+    }
+    .footer-text p{
+        max-width: 90%;
+        line-height: 2rem;
+    }
+
+    .copyright{
+        font-size: .8rem;
+        letter-spacing: 1px;
+        padding-bottom: 3rem;
     }
 }
